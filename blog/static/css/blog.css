@@ -4,6 +4,7 @@ h1 a, h2 a {
 
 body {
     padding-left: 15px;
+    background-color: #ffffff;
 }
 
 h1 a, h2 a {
@@ -17,6 +18,7 @@ h1 a, h2 a {
     margin-bottom: 40px;
     padding: 20px 20px 20px 40px;
 }
+
 
 .page-header h1,
 .page-header h1 a,
@@ -36,6 +38,7 @@ h4 {
 
 .date {
     color: #828282;
+
 }
 
 .save {
@@ -44,17 +47,18 @@ h4 {
 
 .post-form textarea,
 .post-form input {
-    width: 100%;
+    width: 80%;
 }
 
 .top-menu,
 .top-menu:hover,
 .top-menu:visited {
-    color: #ffffff;
     float: right;
-    font-size: 26pt;
+    font-size: 12pt;
     margin-right: 20px;
+    margin-top: 12px;
 }
+
 
 .post {
     margin-bottom: 70px;
@@ -68,16 +72,33 @@ h4 {
 .post > .date,
 .post > .actions {
     float: right;
+    padding: 0 10px 0 10px;
 }
 
 .btn-secondary,
 .btn-secondary:visited {
+    border: none;
     color: #C25100;
     background: none;
     border-color: #C25100;
+
 }
 
 .btn-secondary:hover {
     color: #FFFFFF;
     background-color: #C25100;
+}
+
+.btn-new,
+.btn-new:visited {
+    
+    border: none;
+    color: #FFFFFF;
+    background: none;
+    border-color: #C25100;
+}
+
+.btn-new:hover {
+    color: #C25100;
+    background-color: #FFFFFF;
 }
