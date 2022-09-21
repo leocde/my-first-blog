@@ -75,6 +75,7 @@ h4 {
     padding: 0 10px 0 10px;
 }
 
+
 .btn-secondary,
 .btn-secondary:visited {
     border: none;
@@ -91,7 +92,6 @@ h4 {
 
 .btn-new,
 .btn-new:visited {
-    
     border: none;
     color: #FFFFFF;
     background: none;
@@ -102,3 +102,4 @@ h4 {
     color: #C25100;
     background-color: #FFFFFF;
 }
+

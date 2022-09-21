@@ -12,11 +12,18 @@
                 <a href="{% url 'post_remove' pk=post.pk %}" class="btn btn-secondary">
                     {% include './icons/trash.svg' %}
                 </a>
+                {% if not post.published_date %}
+                    <a href="{% url 'post_publish' pk=post.pk %}" class="btn btn-secondary">
+                    Publish
+                    </a>
+                {% endif%}
+                
             {% endif %}
-        </aside>
 
+        </aside>
+            
         {% if post.published_date %}
-            <time class="date"> published: {{ post.published_date }} </time> 
+            <time class="date"> published: {{ post.published_date }} </time>
         {% endif %}
         <h2><a href="">{{ post.title }} </a></h2>
         <p> {{ post.text|linebreaksbr }} </p> 
